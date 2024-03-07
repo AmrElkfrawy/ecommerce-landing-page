@@ -1,0 +1,53 @@
+.title {
+  height: 300px;
+  object-fit: cover;
+}
+
+.description {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.product:hover .description {
+  opacity: 1;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link.active {
+  color: yellow;
+}
+
+.footer .navbar-nav .nav-link {
+  color: white;
+}
+
+.footer .navbar-nav .nav-link i {
+  color: white;
+}
+
+.form-control {
+  color: black;
+}
+
+.product h5 {
+  color: black;
+}
+
+.product .description {
+  color: black;
+}
